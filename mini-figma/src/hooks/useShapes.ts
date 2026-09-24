@@ -4,12 +4,12 @@ import { normalizeRect } from '../utils/geometry'
 
 /** Пара демо-фигур, чтобы канвас не был пустым до шага «рисование». */
 const DEMO_SHAPES: Shape[] = [
-  { id: 'demo-rect', type: 'rectangle', x: -180, y: -120, width: 260, height: 170, fill: '#6366f1' },
+  { id: 'demo-rect', type: 'rectangle', x: -180, y: -120, width: 260, height: 170, fill: '#ff4d6d' },
   { id: 'demo-ellipse', type: 'ellipse', x: 60, y: 20, width: 240, height: 150, fill: '#06b6d4' },
 ]
 
 /** Заливка новых фигур по умолчанию (как у первой демо-фигуры). */
-const DEFAULT_FILL = '#6366f1'
+const DEFAULT_FILL = '#ff4d6d'
 
 /**
  * Минимальный размер черновика в мировых px: «клик» без перетаскивания
